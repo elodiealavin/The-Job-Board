@@ -2,14 +2,74 @@
   background-color: black;
   color: white;
   height: 100px;
-  width: 1140px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
+  font-family: "Roboto";
+  font-size: 35px;
 }
 
-.title h1 {
+/* .title {
   font-family: "Roboto";
-  font-size: 260px;
+  font-size: 300px;
+} */
+
+/* ------------------ */
+/* --- Main -----*/
+/* ------------------ */
+
+main {
+  height: 1020px;
+  width: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: brown;
+  margin: auto;
+}
+.jobs {
+  height: 300px;
+}
+
+.job > h2 {
+  font-size: 30px;
+  padding: 100px;
+}
+
+.job > div > span {
+  font-size: 15px;
+}
+
+.red {
+  border: 5px solid red;
+}
+
+.green {
+  border: 5px solid green;
+}
+
+.yellow {
+  border: 5px solid yellow;
+}
+
+.blue {
+  border: 5px solid blue;
+}
+
+.pink {
+  border: 5px solid pink;
+}
+
+/* ------------------ */
+/* --- footer -----*/
+/* ------------------ */
+
+footer {
+  background-color: gray;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }

@@ -1,8 +1,8 @@
-import Title from "./components/Title";
+import Title from "./Title";
 
 const Header = (props) => {
   return (
-    <h1 classeName="title">
+    <h1 className="header">
       <Title name={props.name} />
     </h1>
   );
